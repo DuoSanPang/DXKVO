@@ -15,6 +15,7 @@
 		B60FF03B1FC550EB00C9688A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60FF0391FC550EB00C9688A /* LaunchScreen.storyboard */; };
 		B60FF0461FC550EC00C9688A /* ARKitCoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FF0451FC550EC00C9688A /* ARKitCoreMLTests.swift */; };
 		B60FF0511FC550EC00C9688A /* ARKitCoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FF0501FC550EC00C9688A /* ARKitCoreMLUITests.swift */; };
+		B60FF05F1FC5525600C9688A /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B60FF05E1FC5525600C9688A /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B60FF04C1FC550EC00C9688A /* ARKitCoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitCoreMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60FF0501FC550EC00C9688A /* ARKitCoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitCoreMLUITests.swift; sourceTree = "<group>"; };
 		B60FF0521FC550EC00C9688A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60FF05E1FC5525600C9688A /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B60FF0301FC550EB00C9688A /* art.scnassets */,
 				B60FF0321FC550EB00C9688A /* ViewController.swift */,
 				B60FF0341FC550EB00C9688A /* Main.storyboard */,
+				B60FF05E1FC5525600C9688A /* Resnet50.mlmodel */,
 				B60FF0371FC550EB00C9688A /* Assets.xcassets */,
 				B60FF0391FC550EB00C9688A /* LaunchScreen.storyboard */,
 				B60FF03C1FC550EB00C9688A /* Info.plist */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60FF0331FC550EB00C9688A /* ViewController.swift in Sources */,
+				B60FF05F1FC5525600C9688A /* Resnet50.mlmodel in Sources */,
 				B60FF02F1FC550EB00C9688A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPFHSUH9CX;
 				INFOPLIST_FILE = ARKitCoreML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vivachinasports.ARKitCoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPFHSUH9CX;
 				INFOPLIST_FILE = ARKitCoreML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vivachinasports.ARKitCoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
